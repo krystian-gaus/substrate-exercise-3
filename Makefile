@@ -7,6 +7,9 @@ run:
 toolchain:
 	./scripts/init.sh
 
+build-full:
+	WASM_BUILD_TOOLCHAIN=nightly-2020-10-07 cargo build
+
 build:
 	cargo build
 
