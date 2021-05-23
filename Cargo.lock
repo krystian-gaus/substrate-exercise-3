@@ -3564,6 +3564,7 @@ dependencies = [
  "hex-literal",
  "pallet-aura",
  "pallet-balances",
+ "pallet-doggies",
  "pallet-grandpa",
  "pallet-kitties",
  "pallet-randomness-collective-flip",
@@ -3773,6 +3774,17 @@ dependencies = [
  "serde",
  "sp-runtime",
  "sp-std",
+]
+
+[[package]]
+name = "pallet-doggies"
+version = "0.1.0"
+dependencies = [
+ "frame-support",
+ "frame-system",
+ "pallet-randomness-collective-flip",
+ "parity-scale-codec",
+ "sp-io",
 ]
 
 [[package]]
